@@ -119,7 +119,7 @@
     <section class="carousel-wrap">
         <div id="carouselExample" class="carousel carousel-overlay slide" data-bs-ride="carousel" data-bs-interval="2000" data-bs-pause="false">
 
-            <div class="carousel-indicators">
+            <!-- <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
                     <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1"
@@ -136,7 +136,7 @@
                         aria-label="Slide 7"></button>
                     <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="7"
                         aria-label="Slide 8"></button>
-                </div>
+            </div> -->
 
             <div class="carousel-inner rounded-5">
 
@@ -188,7 +188,7 @@
                         <div class="slide7-text">
                             <h1>Rethink Banking, Embrace Convenience</h1>
                             <p>The future of banking is here. We're not just a bank, we're your financial co-pilot, expertly navigating you through the exicting future of money</p>
-                            <a href="">Learn More</a>
+                            <a href="#" class="learn-btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
 
                         <img src="./Images/bgG2.png" class="girl" alt="">
@@ -202,7 +202,7 @@
                         <div class="slide8-text">
                             <h1>Join The Next Generation Banking Revolution</h1>
                             <p>THe banking where innovation, tech-savvy solutions and financial freedom colide. Your money, your rules - let's define banking together!</p>
-                            <a href="">Order your Card Now</a>
+                            <a href="#" class="order-btn">Order Your Card Now <i class="fa-solid fa-arrow-right"></i></a>
                         </div>
                         
                         <img src="./Images/bgH2.png" class="guys" alt="">
@@ -226,7 +226,7 @@
                         <span>Wema Bank Announces First Pitch Center for Hackaholics 7.0</span>
                         <span class="border">|</span>
                         <span>Wema Bank Deepens Committment to Nigeria'S Entrepreneurs as it Marks World MSME Day 2026</span>
-                        <span class="bordr">|</span>
+                        <span class="border">|</span>
                     </div>
 
                 </div>
@@ -237,36 +237,371 @@
 
        <!-- Below News -->
         
-<section class="quick-links">
-  <a href="#" class="quick-card">
-    <i class="fa-solid fa-comment-dots"></i>
-    <span>Help Center</span>
-  </a>
-  <a href="#" class="quick-card">
-    <i class="fa-solid fa-user-group"></i>
-    <span>Whistle Blower</span>
-  </a>
-  <a href="#" class="quick-card">
-    <i class="fa-solid fa-mobile-screen-button"></i>
-    <span>Digital Banking</span>
-  </a>
-  <a href="#" class="quick-card">
-    <i class="fa-solid fa-layer-group"></i>
-    <span>FAQs</span>
-  </a>
-  <a href="#" class="quick-card">
-    <i class="fa-solid fa-circle-down"></i>
-    <span>Downloads</span>
-  </a>
-  <a href="#" class="quick-card">
-    <i class="fa-solid fa-location-dot"></i>
-    <span>Locate Branch</span>
-  </a>
+    <section class="quick-links">
+
+        <input type="checkbox" id="quick-toggle">
+        <label for="quick-toggle" class="quick-toggle">
+            <span>Quick Links</span>
+            <i class="fa-solid fa-chevron-down"></i>
+        </label>
+
+        <div class="quick-links-inner">
+            <a href="#" class="quick-card">
+              <i class="fa-solid fa-comment-dots"></i>
+              <span>Help Center</span>
+            </a>
+
+            <a href="#" class="quick-card">
+              <i class="fa-solid fa-user-group"></i>
+              <span>Whistle Blower</span>
+            </a>
+
+            <a href="#" class="quick-card">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+              <span>Digital Banking</span>
+            </a>
+
+            <a href="#" class="quick-card">
+              <i class="fa-solid fa-layer-group"></i>
+              <span>FAQs</span>
+            </a>
+
+            <a href="#" class="quick-card">
+              <i class="fa-solid fa-circle-down"></i>
+              <span>Downloads</span>
+            </a>
+
+            <a href="#" class="quick-card">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Locate Branch</span>
+            </a>
+        </div>
+   </section>
+
+   <!-- OUR PRODUCTS -->
+    <section class="products">
+        <div class="product-sec">
+            
+              <div class="bg-square sq1"></div>
+              <div class="bg-square sq2"></div>
+              <div class="bg-square sq3"></div>
+            
+
+            <div class="products-head">
+                <p class="products-label">Our products</p>
+                <h2>Elevate Your Business</h2>
+                <p class="products-intro">
+                  With Wema Bank, you can access a range of financial solutions tailored to your business needs, including loans, investments, and trade finance. Get the resources you need to grow and expand your reach.
+                </p>
+            </div>
+
+         <div class="products-grid">
+
+           <div class="product-card">
+               <img src="./Images/personal.png" class="pb" alt="Personal banking">
+               <h3>Personal Banking</h3>
+               <p>At Wema Bank, We offer a comprehensive range of personal banking products and services to meet your financial needs.</p>
+               <a href="#" class="get-started">Get started <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="product-card">
+               <img src="./Images/business.png" class="bb" alt="Business banking">
+               <h3>Business Banking</h3>
+               <p>We empower businesses with a comprehensive range of financial solutions, including loans, investments, and convenient online banking tools, to help them...</p>
+               <a href="#" class="get-started">Get started <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="product-card">
+               <img src="./Images/corporate.png" class="cb" alt="Corporate banking">
+               <h3>Corporate Banking</h3>
+               <p>Our expertise in trade finance and global network also enable businesses to expand beyond borders and reach new markets.</p>
+               <a href="#" class="get-started">Get started <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="product-card">
+               <img src="./Images/loan.png" class="lo" alt="Loans">
+               <h3>Loans</h3>
+               <p>Unlock your financial potential with Wema Bank's extensive range of consumer and business loans. Our flexible and personalized loan options support you in...</p>
+               <a href="#" class="get-started">Get started <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="product-card">
+               <img src="./Images/royal.png" alt="Royal Kiddies">
+               <h3>Royal Kiddies</h3>
+               <p>Our bespoke children's savings account designed to encourage saving and financial prudence from a young age. While providing parents with a convenient...</p>
+               <a href="#" class="get-started">Get started <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="product-card">
+               <img src="./Images/e-banking.png" alt="E-Banking">
+               <h3>E-Banking</h3>
+               <p>We offer a comprehensive E-banking platform, ALAT, providing a range of convenient and secure ways to manage your finances 24/7, from anywhere in the...</p>
+               <a href="#" class="get-started">Get started <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+         </div>
+
+             <!-- SME BANKING: image left, text right -->
+         <div class="feature">
+              <img src="./Images/bgdots.png" class="dots dots-left" alt="">
+              <img src="./Images/bgdots.png" class="dots dots-right" alt="">
+
+            <div class="feature-img">
+                 <img src="./Images/smephoto.png" alt="SME banking">
+            </div>
+
+            <div class="feature-text">
+              <img src="./Images/business.png" class="feature-icon" alt="">
+              <p class="feature-label">SME Banking</p>
+              <h2>Your Strategic SME Partner</h2>
+              <p class="feature-desc">Elevate your Enterprise to new heights with a strategic partner. From strategic insights to cutting-edge tools, we are dedicated to propelling your business forward. Let's venture together towards success!</p>
+              <a href="#" class="feature-btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+         </div>
+
+                      <!-- THREE SMALL CARDS -->
+         <div class="sme-cards">
+
+            <div class="sme-card">
+              <img src="./Images/business.png" class="sme-card-icon" alt="">
+              <h3>Wema POS</h3>
+              <p>Your partner in seamless and secure POS experiences that ensure client satisfaction and seamless payment processing.</p>
+            </div>
+
+            <div class="sme-card">
+               <img src="./Images/945.png" class="sme-card-icon" alt="">
+               <h3>*945#</h3>
+               <p>Our USSD Code offers a convenient and accessible way to manage your finances on your mobile phone without needing internet access.</p>
+            </div>
+
+            <div class="sme-card">
+              <img src="./Images/sme.png" class="sme-card-icon" alt="">
+              <h3>SME Loans</h3>
+              <p>We offer a variety of SME loan options to help your business grow, each with its own advantages and requirements.</p>
+            </div>
+         </div>
+
+               <!-- CUSTOM CARDS: text left, image right -->
+         <div class="feature">
+            <div class="feature-text">
+             <img src="./Images/customcard.png" class="feature-icon" alt="">
+             <p class="feature-label">Custom Cards</p>
+             <h2>Experience Individuality in Every Swipe</h2>
+             <p class="feature-desc">Make your transactions with our exclusive collection of personalized cards, allowing you to express your unique style and preferences in every financial interaction and transaction you make</p>
+             <a href="#" class="feature-btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+
+            <div class="feature-img">
+              <img src="./Images/imgi_35_card_gif-zaOYJUr6.gif" alt="Custom cards" >
+            </div>
+         </div>
+
+                 <!-- ALATPAY: image left, text right -->
+         <div class="feature">
+            <div class="feature-img">
+              <img src="./Images/alatp.png" alt="ALATPay">
+            </div>
+
+            <div class="feature-text">
+               <img src="./Images/customp.png" class="feature-icon" alt="">
+               <p class="feature-label">ALATPay</p>
+               <h2>Your Gateway to Uninterrupted Growth</h2>
+               <p class="feature-desc">ALATpay lets businesses collect payments easily from customers via several methods: cards (local and international), bank transfers, phone, NQR, and a dedicated online storefront for displaying and selling products. It's a one-stop platform for seamless digital payments.</p>
+               <a href="#" class="feature-btn">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+         </div>
+        </div>
+    </section>
+
+
+
+                           <!-- INVESTOR -->
+
+    <section class="investor">
+        <div class="investor-inner">
+
+            <div class="investor-top">
+                <div class="investor-text">
+                  <span class="investor-label">Investor Relations</span>
+                  <h2>Explore the Latest Stories Shaping Our Financial Landscape</h2>
+                  <p>Be informed about our initiatives, partnerships, and the groundbreaking strides we're making in shaping the future of finance and banking.</p>
+
+                    <div class="stats">
+                        <div class="stat">
+                           <strong id="trade-date">2026-10-19</strong>
+                           <span>Trade Date</span>
+                        </div>
+
+                        <div class="stat">
+                           <strong id="last-price">loading...</strong>
+                           <span>Last</span>
+                        </div>
+
+                        <div class="stat">
+                           <strong id="change">loading...</strong>
+                           <span>Change</span>
+                        </div>
+
+                        <div class="stat">
+                           <strong>BBB</strong>
+                           <span>Our Rating</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="investor-image">
+                   <img src="./Images/investor.png" alt="Investors shaking hands">
+                </div>
+            </div>
+
+            <div class="investor-cards">
+                <a href="#" class="investor-card">
+                    <h3>Our Share Price</h3>
+                    <p>Track the rhythm of our stock through real-time updates, insightful analysis, and historical trends.</p>
+                </a>
+
+                <a href="#" class="investor-card">
+                    <h3>Fixed Income &amp; Ratings</h3>
+                    <p>Experience stability and confidence through our Fixed Income alternatives and ratings, a testament to the trust we inspire in the industry.</p>
+                </a>
+
+                <a href="#" class="investor-card">
+                    <h3>Events &amp; Presentations</h3>
+                    <p>Join us at our exclusive events where industry experts, thought leaders, and financial professionals converge to share valuable insights.</p>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+                      <!-- SUSTAINABILITY -->
+    <section class="sustainability">
+        <div class="sus-sec">
+
+            <div class="sus-top">
+                <div class="sus-text">
+                  <img class="sus-icon" src="./Images/sus.png" alt="">
+                  <span class="sus-label">Sustainability</span>
+                  <h2>Championing Responsible Business for a Sustainable Future</h2>
+                  <p>We are committed to advancing our sustainability initiatives, emphasizing responsible business practices, environmental stewardship, and fostering shared value for our stakeholders</p>
+                  <a href="#" class="learn-more">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+
+                <div class="sus-gallery">
+                    <div class="col col-left">
+                       <img src="./Images/sustain.png" alt="Volunteers cleaning up" class="img-tall">
+                       <img src="./Images/sustain3.png" alt="Solar panels" class="img-short">
+                    </div>
+                    <div class="col col-right">
+                       <img src="./Images/sustain2.png" alt="Sunset" class="img-short">
+                       <img src="./Images/sustain4.png" alt="Seedling in hand" class="img-tall">
+                    </div>
+                </div>
+            </div>
+
+            <div class="sus-cards">
+                <a href="#" class="sus-card">
+                    <span class="icon-circle"><img src="./Images/partner.png" alt=""></span>
+                    <h3>Partnerships</h3>
+                    <p>Fostering collaboration for global and corporate goals through a systemic thinking approach.</p>
+                </a>
+
+                <a href="#" class="sus-card">
+                   <span class="icon-circle"><img src="./Images/gov.png" alt=""></span>
+                   <h3>Governance &amp; Reporting</h3>
+                   <p>Ensuring integrity, accountability and transparency, we communicate and disclose impact consistently to stakeholders</p>
+                </a>
+
+                <a href="#" class="sus-card">
+                    <span class="icon-circle"><img src="./Images/environ.png" alt=""></span>
+                    <h3>Environmental Footprint</h3>
+                    <p>Prioritizing environmental quality sustains the future, creating a conducive environment for stakeholders and generations.</p>
+                </a>
+            </div>
+
+        </div>
+    </section>
+    <!-- TESTIMONIALS -->
+    <section class="testimonials">
+        <div class="testi-sec">
+             <span class="t-label">Testimonial</span>
+             <h2>What Customers Say</h2>
+
+            <div class="t-track">
+                <article class="t-card">
+                  <p>"I'm grateful for the opportunity; it's not just about the grant, but the potential impact. Almost gave up on my business, but this boost will make a difference.".".</p>
+                  <h4>Loveth Ugwu</h4>
+                </article>
+
+                <article class="t-card">
+                   <p>"I'm grateful to Wema for the impact in the Gen Z's, the sound of ALAT competition has given me a greater platform in the music industry".</p>
+                   <h4>Kareem Olatomiwa</h4>
+                </article>
+
+                <article class="t-card">
+                    <p>"Thank you immensely from my heart, this vote of support and confidence in my business 'Jute'Ally' fuels my determination to bring it to life.".</p>
+                    <h4>Hibatullahi Adeniyi</h4>
+                </article>
+
+                <article class="t-card">
+                   <p>"Thank you Wema, EDC master card for this opportunity, and for awarding me this grant. It serves as a motivation to pursue my business."</p>
+                   <h4>Peace Edwins</h4>
+                </article>
+
+                <article class="t-card">
+                   <p>"Wema bank is that bank, and the customer service is key and swift."</p>
+                   <h4>Liberty</h4>
+                </article>
+
+                <article class="t-card">
+                   <p>"I'm grateful for this journey and many thanks thanks to Wema Bank for the opportunity to help women across Africa."</p>
+                   <h4>Jane Agbaohwo</h4>
+                </article>
+            </div>
+        </div>
+    </section>
+
+<!-- ALAT DOWNLOAD BANNER -->
+<section class="alat">
+  <div class="alat-toggle">
+    <span class="on">Personal Banking</span>
+    <label class="switch">
+      <input type="checkbox" id="bank-toggle">
+      <span class="slider"></span>
+    </label>
+    <span class="off">Business Banking</span>
+  </div>
+
+  <h3 class="alat-title">Do you have ALAT? Download Now</h3>
+
+  <div class="alat-body">
+    <div class="alat-stores">
+      <a href="#"><img src="images/app-store.png" alt="Download on the App Store"></a>
+      <a href="#"><img src="images/google-play.png" alt="Get it on Google Play"></a>
+    </div>
+
+    <img class="alat-phone" src="images/alat-phone.png" alt="ALAT app">
+
+    <div class="alat-info">
+      <span class="progress"></span>
+      <p>Simple, Easy and Convenient</p>
+      <a href="#" class="btn-outline">Learn More</a>
+    </div>
+
+    <img class="deco deco-burst"  src="images/burst.svg"  alt="">
+    <img class="deco deco-arrow"  src="images/arrow.svg"  alt="">
+    <img class="deco deco-plane"  src="images/plane.svg"  alt="">
+  </div>
 </section>
-    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
-
     
+    <a href="#" class="chat-btn" aria-label="Chat with us">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="#fff">
+         <path d="M20 2H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/>
+        </svg>
 
+        <span class="chat-tooltip">Open Assistance Panel</span>
+    </a>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
 </body>
 
 </html>
