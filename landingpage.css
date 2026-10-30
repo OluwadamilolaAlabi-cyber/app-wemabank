@@ -576,6 +576,7 @@ nav{
     border-radius: 30px;
     background-color: white;
     color: #981E87;
+    text-decoration: none;
 }
 .slide8{
     background-image: url(./Images/bgF1.png);
@@ -610,6 +611,7 @@ nav{
     border-radius: 30px;
     background-color: #981E87;
     color: white;
+    text-decoration: none;
 }
 .slide8 img{
     width: 800px;
