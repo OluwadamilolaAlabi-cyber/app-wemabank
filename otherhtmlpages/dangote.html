@@ -28,7 +28,7 @@
                 <li><a href="./aboutus.html">About Us</a></li>
                 <li><a href="./personal.html">Personal</a></li>
                 <li><a href="">SME</a></li>
-                <li><a href="./dangote.html">Dangote IPO</a></li>
+                <li><a href="./dangote.html" class="active">Dangote IPO</a></li>
                 <li><a href="">ALAT</a></li>
                 <li><a href="">SARA</a></li>
                 <li><a href="./alatxplore.html">Alat Xplore</a></li>
@@ -77,9 +77,146 @@
 
 
 
-                <a href="" class="hamburger">
+                <!-- <a href="" class="hamburger">
                     <i class="fa-solid fa-bars"></i>
-                </a>
+                </a> -->
+
+                <!-- HIDDEN CHECKOUT -->
+                <!-- 1. hidden checkbox that opens and closes the whole menu -->
+<input type="checkbox" id="menu-toggle" class="menu-toggle">
+
+<!-- 2. hamburger button (shows at 1024px and below) -->
+<label for="menu-toggle" class="hamburger" aria-label="Open menu">
+  <span></span><span></span><span></span>
+</label>
+
+<!-- 3. dark area behind the panel: click it to close -->
+<label for="menu-toggle" class="menu-overlay"></label>
+
+<!-- 4. the slide-in panel -->
+<div class="menu-panel">
+
+  <div class="menu-top">
+    <a href="../index.html">
+      <img src="../Images/wemalogo.png" alt="Wema Bank" class="menu-logo">
+    </a>
+    <label for="menu-toggle" class="menu-close" aria-label="Close menu">&times;</label>
+  </div>
+
+  <ul class="menu-list">
+
+    <!-- HOME (opens) -->
+    <li>
+      <input type="checkbox" id="sub-home" class="sub-toggle">
+      <div class="menu-row">
+        <a href="../index.html" >Home</a>
+        <label for="sub-home" class="chev-btn"><i class="chev"></i></label>
+      </div>
+      <ul class="sub-list">
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Investors Relations</a></li>
+        <li><a href="#">Sustainability</a></li>
+        <li><a href="#">Resource Center</a></li>
+        <li><a href="#">ALAT Evolution</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </li>
+
+    <!-- ABOUT US (opens) -->
+    <li>
+      <input type="checkbox" id="sub-about" class="sub-toggle">
+      <div class="menu-row">
+        <a href="../otherhtmlpages/aboutus.html">About Us</a>
+        <label for="sub-about" class="chev-btn"><i class="chev"></i></label>
+      </div>
+      <ul class="sub-list">
+        <li><a href="#">Managing Director/CEO</a></li>
+        <li><a href="#">Board of Directors</a></li>
+        <li><a href="#">Management Team</a></li>
+        <li><a href="#">Our History</a></li>
+        <li><a href="#">Our Products</a></li>
+      </ul>
+    </li>
+
+    <!-- PERSONAL (opens) -->
+    <li>
+      <input type="checkbox" id="sub-personal" class="sub-toggle">
+      <div class="menu-row">
+        <a href="../otherhtmlpages/personal.html">Personal</a>
+        <label for="sub-personal" class="chev-btn"><i class="chev"></i></label>
+      </div>
+      <ul class="sub-list">
+        <li><a href="#">Accounts & Services</a></li>
+        <li><a href="#">Fixed Deposits</a></li>
+        <li><a href="#">Loans</a></li>
+        <li><a href="#">Consumer Loans</a></li>
+        <li><a href="#">E-Banking</a></li>
+        <li><a href="#">Prestige Banking</a></li>
+        <li><a href="#">Diaspora Banking</a></li>
+      </ul>
+    </li>
+
+    <!-- SME (arrow only, opens nothing) -->
+    <li>
+      <div class="menu-row">
+        <a href="#">SME</a>
+        <span class="chev-btn empty"><i class="chev"></i></span>
+      </div>
+    </li>
+
+    <!-- DANGOTE IPO (opens) -->
+    <li>
+      <input type="checkbox" id="sub-ipo" class="sub-toggle">
+      <div class="menu-row">
+        <a href="../otherhtmlpages/dangote.html" class="active">Dangote IPO</a>
+        <label for="sub-ipo" class="chev-btn"><i class="chev"></i></label>
+      </div>
+      <ul class="sub-list">
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Investors Relations</a></li>
+        <li><a href="#">Sustainability</a></li>
+        <li><a href="#">Resource Center</a></li>
+        <li><a href="#">ALAT Evolution</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </li>
+
+    <!-- ALAT (arrow only, opens nothing) -->
+    <li>
+      <div class="menu-row">
+        <a href="#">ALAT</a>
+        <span class="chev-btn empty"><i class="chev"></i></span>
+      </div>
+    </li>
+
+    <!-- SARA (arrow only, opens nothing) -->
+    <li>
+      <div class="menu-row">
+        <a href="#">SARA</a>
+        <span class="chev-btn empty"><i class="chev"></i></span>
+      </div>
+    </li>
+
+    <!-- ALAT XPLORE (opens; class="active" because this is the Alat Xplore page) -->
+    <li>
+      <input type="checkbox" id="sub-xplore" class="sub-toggle">
+      <div class="menu-row">
+        <a href="../otherhtmlpages/alatxplore.html" >Alat Xplore</a>
+        <label for="sub-xplore" class="chev-btn"><i class="chev"></i></label>
+      </div>
+      <ul class="sub-list">
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Investors Relations</a></li>
+        <li><a href="#">Sustainability</a></li>
+        <li><a href="#">Resource Center</a></li>
+        <li><a href="#">ALAT Evolution</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </li>
+
+  </ul>
+</div>
+
 
             </div>
 
